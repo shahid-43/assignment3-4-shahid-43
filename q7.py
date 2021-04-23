@@ -71,9 +71,9 @@ def summarize_diagnostics(history):
 	pyplot.plot(history.history['accuracy'], color='blue', label='train')
 	pyplot.plot(history.history['val_accuracy'], color='orange', label='test')
 	# save plot to file
-	pyplot.savefig('vgg1')
-	# pyplot.savefig('vgg2' )
-	# pyplot.savefig('transfer_learning' )
+	pyplot.savefig('vgg1'+ 'jpeg')
+	# pyplot.savefig('vgg2'+ 'jpeg' )
+	# pyplot.savefig('transfer_learning' + 'jpeg' )
 	pyplot.close()
 
 # run the test harness for evaluating a model
